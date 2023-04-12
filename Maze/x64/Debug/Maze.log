@@ -1,0 +1,6 @@
+﻿  KeyboardWalker.cpp
+  Main.cpp
+C:\Users\Lecturer\source\repos\Maze\Maze\Main.cpp(29,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  WalkerBase.cpp
+  Generating Code...
+  Maze.vcxproj -> C:\Users\Lecturer\source\repos\Maze\x64\Debug\Maze.exe
