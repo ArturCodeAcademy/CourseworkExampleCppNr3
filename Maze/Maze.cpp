@@ -29,3 +29,23 @@ string Maze::ToString(bool spaces)
     delete[] lines;
     return mazeStr;
 }
+
+wstring Maze::ToWstring()
+{
+    wstring resMap;
+    string map = ToString();
+
+    for (int i = 0; i < map.size(); i++)
+        switch (map[i])
+        {
+        case Maze::START:
+        case Maze::END:
+        case Cell::WHITE_SPACE:
+            resMap += L".";
+            break;
+        case Cell::WALL:
+            resMap += L"#";
+        }
+
+    return resMap;
+}

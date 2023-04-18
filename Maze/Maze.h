@@ -78,4 +78,6 @@ public:
     }
 
     string ToString(bool spaces = false);
+
+    wstring ToWstring();
 };

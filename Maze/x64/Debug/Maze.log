@@ -1,6 +1,7 @@
-﻿  KeyboardWalker.cpp
-  Main.cpp
-C:\Users\Lecturer\source\repos\Maze\Maze\Main.cpp(29,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  WalkerBase.cpp
-  Generating Code...
-  Maze.vcxproj -> C:\Users\Lecturer\source\repos\Maze\x64\Debug\Maze.exe
+﻿  Main.cpp
+C:\Users\Artur\source\repos\CourseworkExampleCppNr3\Maze\Main.cpp(177,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Artur\source\repos\CourseworkExampleCppNr3\Maze\Main.cpp(186,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Artur\source\repos\CourseworkExampleCppNr3\Maze\Main.cpp(239,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Artur\source\repos\CourseworkExampleCppNr3\Maze\Main.cpp(247,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Artur\source\repos\CourseworkExampleCppNr3\Maze\Main.cpp(247,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Maze.vcxproj -> C:\Users\Artur\source\repos\CourseworkExampleCppNr3\x64\Debug\Maze.exe
