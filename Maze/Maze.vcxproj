@@ -134,6 +134,7 @@
     <ClCompile Include="Maze.cpp" />
     <ClCompile Include="MazeCreatorBase.cpp" />
     <ClCompile Include="SimpleMazeCreator.cpp" />
+    <ClCompile Include="Walker3D.cpp" />
     <ClCompile Include="WalkerBase.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,7 @@
     <ClInclude Include="MazeCreatorBase.h" />
     <ClInclude Include="SimpleMazeCreator.h" />
     <ClInclude Include="Timer.h" />
+    <ClInclude Include="Walker3D.h" />
     <ClInclude Include="WalkerBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
